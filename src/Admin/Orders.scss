@@ -1,0 +1,12 @@
+
+.order-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+            @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    } 
+}

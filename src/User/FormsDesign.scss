@@ -1,0 +1,41 @@
+$Titles:'Advent Pro', sans-serif;
+
+
+
+.singinForm{
+   // box-shadow: 0 0.2em 1em rgba(61,48,41,0.2);
+    
+}
+
+
+
+.plant img {
+    width: 60%;
+    @media(max-width: 769px){
+        width: 100%;
+    }
+}
+
+.send-button{
+	width:100%;
+	font-weight: 600;
+	color:#fff;
+    padding: 8px 25px;
+    font-family: $Titles ;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none; 
+	margin: 0; 
+}
+
+
+
+.Form-design {
+
+    //background: red;
+    box-shadow: 0 0.2em 1em rgba(61,48,41,0.2);
+    padding: 15px;
+    border-radius: 10px;
+    
+}

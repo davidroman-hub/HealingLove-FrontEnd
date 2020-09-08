@@ -1,0 +1,81 @@
+
+// Fonts
+$Titles:'Advent Pro', sans-serif;
+
+
+.header-content{
+
+    height: 100vh;
+    background:#fff;
+    background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1596553841/Healing%20love/simon-rae-IGOBsR93I7Y-unsplash_bwwpne.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+@media(max-width: 769px){
+    margin-top: 25px;
+    height: 50vh;
+    background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1596790894/Healing%20love/portada2_mf4fpk.jpg');
+}
+
+// // //flex box
+
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+// // z-index: 1;
+
+}
+
+
+//Logo position
+
+.logo-4{
+    margin-top:-850px;
+    width: 100%;
+    @media(max-width: 769px){
+        margin-top: 0px;
+    }
+}
+.logo-4 img{
+        @media(max-width: 769px){
+            margin-top: 0px;
+            width: 250px;
+            display: none;
+        }
+    }
+
+
+//Home body
+
+.homeBody1 h2{
+    font-family: $Titles;
+    margin-top: 480px;
+    font-size: 90px;
+    margin-bottom: 100px;
+    @media(max-width: 769px){
+        margin-top: 90px;
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+.homeBody2 h2{
+    font-family: $Titles;
+    margin-top: 150px;
+    font-size: 70px;
+    margin-bottom: 30px;
+    @media(max-width: 769px){
+        margin-top: 100px;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    
+}
